@@ -1,0 +1,7 @@
+# ninja log v5
+7	277	7043930982508535	TheSurvivor_autogen/timestamp	e6087f05547bc777
+7	277	7043930982508535	TheSurvivor_autogen/mocs_compilation.cpp	e6087f05547bc777
+7	277	7043930982508535	D:/Desktop/program/C++/TheSurvivor/out/build/x64-Debug/TheSurvivor_autogen/timestamp	e6087f05547bc777
+7	277	7043930982508535	D:/Desktop/program/C++/TheSurvivor/out/build/x64-Debug/TheSurvivor_autogen/mocs_compilation.cpp	e6087f05547bc777
+352	423	7043930984233229	CMakeFiles/TheSurvivor.dir/source/Map.cpp.obj	a41f8a0040033d5e
+356	424	7043930984389542	CMakeFiles/TheSurvivor.dir/source/Tile.cpp.obj	981d1067cf656c5e

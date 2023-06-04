@@ -1,0 +1,5 @@
+D:/Desktop/program/C++/TheSurvivor/out/build/x64-Debug/CMakeFiles/TheSurvivor.dir
+D:/Desktop/program/C++/TheSurvivor/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/Desktop/program/C++/TheSurvivor/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/Desktop/program/C++/TheSurvivor/out/build/x64-Debug/CMakeFiles/TheSurvivor_autogen_timestamp_deps.dir
+D:/Desktop/program/C++/TheSurvivor/out/build/x64-Debug/CMakeFiles/TheSurvivor_autogen.dir
