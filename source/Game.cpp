@@ -22,6 +22,7 @@ Game::Game(QWidget *parent) : QWidget(parent) {
     mspt = 1000 / tps;
     enemyGenerationInterval = 100;
     coinGettingInterval = 1000;
+    mainPlayer = nullptr;
     connect(&enemyGenerationTimer, &QTimer::timeout, this, &Game::beReadyToGenerateEnemy);
     connect(&ticker, &QTimer::timeout, this, &Game::calculate);
 }
@@ -256,7 +257,7 @@ void Game::paintEvent(QPaintEvent *event) {
     }
 
     // paint experience bar
-    if (gaming) {
+    if (gaming && mainPlayer != nullptr) {
         QPainter painter1(this);
         painter1.setBrush(QBrush(QColor(Qt::blue)));
         painter1.drawRect(
