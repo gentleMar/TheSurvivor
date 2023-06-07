@@ -13,6 +13,7 @@
 #include <QPainter>
 #include <QtMath>
 #include <QMatrix2x2>
+#include <QImage>
 #include <Util.h>
 #include "Weapon.h"
 

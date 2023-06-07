@@ -20,8 +20,6 @@ protected:
     QPointF currentPoint;
     QColor color;
     QFont font;
-    double charWidth;
-    double charHeight;
     int existingTime;
 public:
     CombatText(QString _text,QPointF _startPoint,QColor _color);

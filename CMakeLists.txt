@@ -15,7 +15,7 @@ find_package(Qt6 COMPONENTS
         )
 
 include_directories(include)
-add_executable(TheSurvivor source/main.cpp source/MainWindow.cpp include/MainWindow.h source/Util.cpp include/Util.h source/Menu.cpp include/Menu.h source/Reward.cpp include/Reward.h source/CombatText.cpp include/CombatText.h source/Game.cpp include/Game.h source/Entity.cpp include/Entity.h source/Weapon.cpp include/Weapon.h source/Map.cpp include/Map.h)
+add_executable(TheSurvivor source/main.cpp source/MainWindow.cpp include/MainWindow.h source/Util.cpp include/Util.h source/Menu.cpp include/Menu.h source/CombatText.cpp include/CombatText.h source/Game.cpp include/Game.h source/Entity.cpp include/Entity.h source/Weapon.cpp include/Weapon.h source/Map.cpp include/Map.h)
 target_link_libraries(TheSurvivor
         Qt6::Core
         Qt6::Gui

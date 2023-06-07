@@ -487,9 +487,7 @@ void CombatEntity::refreshPresentSpirit() {
     painter.setCompositionMode(QPainter::CompositionMode_Source);
     painter.drawPixmap(0, 0, present);
     painter.setCompositionMode(QPainter::CompositionMode_DestinationIn);
-
-    painter.fillRect(temp.rect(), QColor(0, 0, 0, (500 - hurtTimeLeft) / 2));
-    painter.end();
+    painter.fillRect(temp.rect(), QColor(0, 0, 0, (510 - hurtTimeLeft) / 2));
 
     present = temp;
 }
@@ -931,7 +929,7 @@ BowStudent::BowStudent(QPointF position) : Player(40, 60, 1, QRectF(position.x()
     defence = baseDefence;
     baseAttackBonus = 0.1;
     attackBonus = baseAttackBonus;
-    weaponSpeed = 1;
+    weaponSpeed = 25;
     fixedSpeed = false;
     baseMaxSpeed = 0.2;
     maxSpeed = baseMaxSpeed;

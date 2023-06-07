@@ -20,7 +20,7 @@ Game::Game(QWidget *parent) : QWidget(parent) {
     setGeometry(0, 0, MY_WINDOW_WIDTH, MY_WINDOW_HEIGHT);
     loadGameData();
     mspt = 1000 / tps;
-    enemyGenerationInterval = 1500;
+    enemyGenerationInterval = 100;
     coinGettingInterval = 1000;
     connect(&enemyGenerationTimer, &QTimer::timeout, this, &Game::beReadyToGenerateEnemy);
     connect(&ticker, &QTimer::timeout, this, &Game::calculate);
@@ -90,7 +90,6 @@ void Game::calculate() {
         }
     } else {
         // save data and emit the gameFinished signal, Main Menu will be open
-        mainPlayer = nullptr;
         saveGameData();
         emit gameFinished();
     }
